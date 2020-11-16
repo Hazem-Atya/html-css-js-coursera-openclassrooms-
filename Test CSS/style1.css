@@ -1,0 +1,29 @@
+.element1{
+    font-size: 200%;
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+}
+.element2{
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+}
+.element3{
+    font-size: 200%;
+    width: 200px;
+    height: 50px;
+
+    background-color: green;
+
+}
+#conteneur{
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;
+    align-content: center;
+}.element:nth-child(16){
+    background-color: aqua;
+     /*flex: 1;*/
+ }

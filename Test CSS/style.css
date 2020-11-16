@@ -1,0 +1,91 @@
+
+h1{
+    ;
+    text-align:center;
+    color:#FFFFFF;
+    font-size: 900%;
+    opacity: 5;
+    border : 5px aqua solid;
+    border-radius: 20px / 20px;
+    box-shadow: 6px 6px 6px white;
+
+}
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: deeppink;
+}
+a:active{
+    color: green;
+}
+a:focus{
+    color:darkred;
+}
+header{
+    font-size: 300%;
+    color: white;
+    border: 4px darkcyan solid ;
+    width: 32%;
+}
+a{
+
+   position: absolute ;
+
+    right: 1%;
+    color: white;
+
+    margin-bottom: 10%;
+    text-decoration: underline ;
+}
+h1:hover{
+    color: yellow;
+}
+
+.signature{
+    text-align: right;
+}
+p
+{
+    width: 70%; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 1px solid white;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 200%;
+    word-wrap: break-word;
+
+}
+footer{
+    text-align: right;
+    font-size: 200%;
+    color: white;
+}
+body{
+
+   /* background-image: url("sources/darki.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    */
+  /*  background-image: url("sources/blue_sun.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 25%;
+    background-attachment: fixed;
+    background-color: #000000;*/
+    background: url("sources/blue_sun.jpg")   fixed no-repeat top right ,url("sources/darki.jpg")   ;
+    background-size: 25%;
+
+}
+@media screen and (max-width: 1024px){
+
+    p{
+        color:yellow ;
+    }
+
+
+
+}

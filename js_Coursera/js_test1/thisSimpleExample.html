@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This simple example</title>
+
+</head>
+<body>
+<style>
+    img{
+        height:200px;
+    }
+</style>
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/Colleen82.jpg" alt="Awesome 80's haircut"
+     onclick="console.log(this.alt)">
+
+<div onclick="console.log(this.innerHTML)">
+    Hi There, checking out a div</div>
+
+<hr>
+
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/FamilyChristmas74.jpg" alt="Another Beautiful Picture"
+     id="ID-1" onclick="displayId(this)">
+
+<div onclick="displayId(this)" id="ID-2">Another Div</div>
+<h2 onclick="ecrire(this)">this is a h2 tag</h2>
+<p onclick="ecrire(this)">
+    Je suis Hazem Atya , j'ai 21 ans et je suis un étudiant à l'institut national
+    des sciences appliquées et de technologies .
+</p>
+<h6 onclick="ecrire(this)">This is an h6 tag</h6>
+<script src="js/thisSimpleExample.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+a[href$=".org"] {
+    background: #FFFF00;
+}
+a[href$="edu"]{
+    background: #FF00FF;
+}
+a[href$=".gov"]{
+    background: #00ff00;
+}

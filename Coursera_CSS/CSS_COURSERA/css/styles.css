@@ -1,0 +1,26 @@
+body{
+
+}
+a{
+    display: block;
+}
+span{
+    height: 50px;
+    width: 75px;
+    background-color: #00ff00;
+}
+
+div{
+
+    width: 30%;
+    background-color: #00ffff;
+    display: table-cell;
+    overflow: auto;
+}
+
+p{
+    width: 400px;
+    height: 100px;
+    background: #ff00ff;
+
+}
